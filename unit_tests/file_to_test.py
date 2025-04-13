@@ -15,8 +15,8 @@
 
 
 def divide(a,b):
-    return a/(b+2)
+    return a/b
 
 def euclidian_distance(v):
-    return sum([x**2 for x in v])+1
+    return sum([x**2 for x in v])
 
