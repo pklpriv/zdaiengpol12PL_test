@@ -3,7 +3,7 @@ repos:
     hooks:
       - id: run-unittest
         name: Run unit tests with unittest
-        entry: python -m unittest discover -s . -p 'test_*.py'
+        entry: python -m unittest discover -s . -p 'tests_*.py'
         language: system
         types: [python]
         pass_filenames: false
