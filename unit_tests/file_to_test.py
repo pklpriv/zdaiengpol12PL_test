@@ -21,4 +21,4 @@ def euclidian_distance(v):
     return sum([x**2 for x in v])
 
 print(euclidian_distance([3,4,5]))
-print(divide(3,0))
+print(divide(32,0))
